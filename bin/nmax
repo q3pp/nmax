@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+$:.unshift File.expand_path('../../lib', __FILE__)
+
+require 'nmax'
+
+n = ARGV[0].to_i
+
+puts Nmax.n_greatest_element_from_io(n,$stdin)
+
+# p Nmax::FindMax.new(data).find(n)
