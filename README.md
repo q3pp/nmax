@@ -12,7 +12,6 @@
 * код должен быть оформлен в виде гема (содержащего исполняемый файл, код
 модулей и т.д.);
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
