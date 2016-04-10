@@ -5,7 +5,7 @@ describe Nmax::Numbers do
 
   it 'should add uniq numbers to @numbers' do
     numbers.increase( [1411, 888, 23, 42, 8, 888, 15] )
-    expect(numbers.numbers).to eq  [1411, 888, 23, 42, 8, 15]
+    expect(numbers.numbers).to eq  [1411, 888, 23, 42, 8, 888, 15]
   end
 
   it 'should return first n reverse sort array' do

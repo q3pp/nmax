@@ -15,7 +15,7 @@ module Nmax
     end
 
     def find_max(n)
-      @numbers.uniq.sort.reverse.first(n)
+      @numbers.uniq!.sort.reverse.first(n)
     end
 
   end

@@ -8,5 +8,5 @@ describe Nmax::NumbersFromIO do
     numbers_from_io_class = described_class.new(io)
     expect(numbers_from_io_class.return_numbers).to eq [1411, 888, 23, 42, 8, 15]
   end
-  
+
 end
