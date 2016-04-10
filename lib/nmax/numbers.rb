@@ -8,7 +8,6 @@ module Nmax
 
     def increase(arr)
       @numbers.concat(arr)
-      @numbers.uniq!
     end
 
     def length
@@ -16,7 +15,7 @@ module Nmax
     end
 
     def find_max(n)
-      @numbers.sort.reverse.first(n)
+      @numbers.uniq.sort.reverse.first(n)
     end
 
   end
